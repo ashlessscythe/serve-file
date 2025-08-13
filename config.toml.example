@@ -1,2 +1,2 @@
 port = 8000
-path = "./public"
+path = "~/public"
