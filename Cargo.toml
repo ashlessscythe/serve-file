@@ -10,3 +10,7 @@ tower-http = { version = "0.6.6", features = ["fs", "trace"] }
 tokio = { version = "1.0", features = ["full"] }
 toml = "0.8"
 open = "5.3.2"
+
+[dev-dependencies]
+reqwest = { version = "0.12", features = ["json"] }
+tempfile = "3.10.1"
